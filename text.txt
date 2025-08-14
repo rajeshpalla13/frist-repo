@@ -1,4 +1,0 @@
-name:saalar
-no:37
-suc:2358250924
-phno:738121299
