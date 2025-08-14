@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Poster</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fff8f0;
+            text-align: center;
+        }
+        header {
+            background-image: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092');
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+        }
+        header h1 {
+            font-size: 4rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.5rem;
+        }
+        button {
+            background-color: #ff5c5c;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+        button:hover {
+            background-color: #e14e4e;
+        }
+        section {
+            padding: 40px;
+        }
+        .specials {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .special {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 250px;
+            padding: 20px;
+        }
+        .special img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .special h3 {
+            margin-top: 10px;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🍽 Food Paradise</h1>
+    <p>Delicious Meals, Great Vibes</p>
+    <button>Order Now</button>
+</header>
+
+<section>
+    <h2>Today's Specials</h2>
+    <div class="specials">
+        <div class="special">
+            <img src="https://images.unsplash.com/photo-1604908177522-040fe3d9f1e2" alt="Pizza">
+            <h3>Cheesy Pizza</h3>
+            <p>Freshly baked with love and loaded with cheese.</p>
+        </div>
+        <div class="special">
+            <img src="https://images.unsplash.com/photo-1562967916-eb82221dfb36" alt="Burger">
+            <h3>Juicy Burger</h3>
+            <p>Perfectly grilled with crispy fries on the side.</p>
+        </div>
+        <div class="special">
+            <img src="https://images.unsplash.com/photo-1516685018646-549d13b1a6b4" alt
